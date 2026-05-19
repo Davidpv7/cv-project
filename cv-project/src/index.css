@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=DM+Sans:wght@300;400;500&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --bg: #f4f1ec;
+  --panel: #ffffff;
+  --accent: #2c2c2c;
+  --muted: #888;
+  --border: #e0dbd3;
+  --btn: #2c2c2c;
+  --btn-text: #fff;
+}
+
+body {
+  background-color: var(--bg);
+  font-family: 'DM Sans', sans-serif;
+  color: var(--accent);
+  min-height: 100vh;
+  padding: 2rem;
+}
+
+.resume-title{
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.main-box {
+  max-width: 780px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.info-box,
+.education-box,
+.exp-box {
+  background: var(--panel);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 1.5rem;
+}
+
+.title-top-area {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.2rem;
+  padding-bottom: 0.8rem;
+  border-bottom: 1px solid var(--border);
+}
+
+.title,
+.info-title {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+.edit-title {
+  background: var(--btn);
+  color: var(--btn-text);
+  border: none;
+  border-radius: 6px;
+  padding: 0.4rem 1rem;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 0.85rem;
+  cursor: pointer;
+  letter-spacing: 0.03em;
+  transition: opacity 0.2s;
+}
+
+.edit-title:hover {
+  opacity: 0.75;
+}

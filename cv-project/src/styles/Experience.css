@@ -1,0 +1,20 @@
+.education-card,
+.experience-card {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  padding: 1rem 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.education-card:last-child,
+.experience-card:last-child {
+  border-bottom: none;
+}
+
+.education-card p,
+.experience-card p {
+  font-size: 0.95rem;
+  color: var(--muted);
+  font-weight: 300;
+}

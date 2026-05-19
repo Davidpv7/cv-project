@@ -1,0 +1,11 @@
+.personal-info {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.personal-info p {
+  font-size: 0.95rem;
+  color: var(--muted);
+  font-weight: 300;
+}
